@@ -1,2 +1,4 @@
-# codecity.github.io
-A Real-Time HTML editor!
+# CodeCity!
+This is a real time HTML , CSS , JS code editor!
+Test your code here!
+Suggestions are always Welcome :)
