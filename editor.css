@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -44,12 +45,12 @@ body{
 	margin-right: 1%;
 	resize: none;
 	outline: none;
-	font-family: sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	height: 80vh;
 	font-size: 1.2em;
 	background-color:black;
 	opacity:.6;
-	color:orange;
+	color:	#00FF00;
 
 }
 #output{
