@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>CodeCity-A Real-Time Editor!</title>
-
-   <link rel="stylesheet" type="text/css" href="editor.css">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+   <link rel="stylesheet" type="text/css" href="./src/css/editor.css">
 </head>
 <body>
 	<div id="header">
@@ -13,10 +13,14 @@
 		<h1>CodeCity</h1>
 		<h2>A Real-Time HTML Editor</h2>
 	</div>
-	<div id="code">
-	<textarea id="input" placeholder="Your Code Here!" onkeyup="codenow()"></textarea>
-	<iframe id="output"></iframe>
+	<div class="code">
+		<div class="editor">
+			<textarea class="input html" placeholder="Your HTML Here!"></textarea>
+			<textarea class="input css" placeholder="Your CSS Here!"></textarea>
+			<textarea class="input js" placeholder="Your JS Here"></textarea>
+		</div>
+		<iframe id="output"></iframe>
 	</div>
-	<script type="text/javascript" src="editor.js"></script>
+	<script type="text/javascript" src="./src/js/editor.js"></script>
 </body>
 </html>
